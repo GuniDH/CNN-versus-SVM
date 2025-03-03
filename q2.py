@@ -14,8 +14,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 
-# Author: Guni Deyo Haness 215615519
-# Question 2 for maman 12 in computer vision course
+# Author: Guni 
 
 
 """ Returns arrays of loaded images and their class labels """
