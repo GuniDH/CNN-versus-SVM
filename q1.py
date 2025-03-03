@@ -10,8 +10,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import roc_curve, roc_auc_score, auc, precision_recall_curve, confusion_matrix, average_precision_score, ConfusionMatrixDisplay
 
 
-# Author: Guni Deyo Haness 215615519
-# Question 1 for maman 12 in computer vision course
+# Author: Guni
 
 
 """ Returns arrays of loaded images and their class labels """
