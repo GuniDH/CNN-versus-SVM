@@ -55,6 +55,7 @@ pip install numpy matplotlib scikit-learn opencv-python torch torchvision
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/GuniDH/CNN-versus-SVM.git
+   cd CNN-versus-SVM
   
    ```
 2. **Run the Feature Extraction & Clustering**
