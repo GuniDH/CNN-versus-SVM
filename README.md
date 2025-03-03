@@ -10,38 +10,21 @@ This project focuses on **image classification** using two different approaches:
 ## Structure
 
 ### `q1.py`
-- Implements **feature extraction using SIFT**.
-- Extracts keypoints and descriptors from images.
-- Applies **KMeans clustering** to group similar features and create a visual vocabulary.
+- Implements SVM classification with BoW representation such that features are found with **SIFT**,
+- then KMEANS clustering is done on the whole features found in all the images and each image is represented
+- by the histogram in which is i-th bin is how many features of the image where assigned to the i-th cluster during KMEANS.
+- Evaluates model performance using **ROC-AUC, Precision-Recall, and Confusion Matrices**.
 
 ### `q2.py`
-- Implements **image classification using SVM**.
-- Uses the **Bag of Visual Words (BoVW)** representation created from SIFT features.
-- Applies **GridSearchCV** for hyperparameter tuning.
+- Implements SVM classification with BoW representation such that features are found with **VGG**,
+- then KMEANS clustering is done on the whole features found in all the images and each image is represented
+- by the histogram in which is i-th bin is how many features of the image where assigned to the i-th cluster during KMEANS.
 - Evaluates model performance using **ROC-AUC, Precision-Recall, and Confusion Matrices**.
 
 ### `q3.py`
-- Implements a **Deep Learning model using PyTorch**.
+- Implements a **Convolutional neural network**.
 - Defines a **custom dataset loader** and training pipeline.
-- Uses **CNNs (Convolutional Neural Networks) for classification**.
 - Evaluates using **Accuracy, Precision, and AUC metrics**.
-
-## How It Works
-
-### **Feature Extraction with SIFT (q1.py)**
-1. Load each image and apply **SIFT** to extract keypoints and descriptors.
-2. Use **KMeans clustering** to create a vocabulary of visual words.
-3. Represent each image as a **histogram of visual words**.
-
-### **Classification with SVM (q2.py)**
-1. Train an **SVM model** using the BoVW representation.
-2. Use **GridSearchCV** to find the best hyperparameters.
-3. Evaluate using **Confusion Matrices, ROC-AUC, and Precision-Recall curves**.
-
-### **Deep Learning with PyTorch (q3.py)**
-1. Load the dataset using a **custom PyTorch Dataset class**.
-2. Train a **CNN model** to classify images.
-3. Evaluate performance using **AUC, Accuracy, and Precision**.
 
 ## Installation
 
