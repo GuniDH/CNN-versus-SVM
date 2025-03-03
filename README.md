@@ -3,8 +3,8 @@
 ## Overview
 
 This project focuses on **image classification** using two different approaches:
-1. **Classical Machine Learning** (Feature extraction with **SIFT** - classic1.py or **VGG** - classic2.py, KMeans clustering, and SVM classification by keywords histograms)
-2. **Deep Learning** (convolutional neural network - cnn.py)
+1. **Classical Machine Learning** (Feature extraction with **SIFT** - q1.py or **VGG** - q2.py, KMeans clustering, and SVM classification by keywords histograms)
+2. **Deep Learning** (convolutional neural network - q3.py)
 
 
 ## Structure
