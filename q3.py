@@ -15,8 +15,7 @@ from matplotlib.patches import Rectangle
 from collections import defaultdict
 
 
-# Author: Guni Deyo Haness 215615519
-# Question 3 for maman 12 in computer vision course
+# Author: Guni
 
 
 # Ensure reproducibility in randomness
