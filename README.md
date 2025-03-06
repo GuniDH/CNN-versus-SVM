@@ -26,38 +26,6 @@ This project focuses on **image classification** using two different approaches:
 - Defines a **custom dataset loader** and training pipeline.
 - Evaluates using **Accuracy, Precision, and AUC metrics**.
 
-## Installation
-
-Ensure you have Python installed and install the required dependencies:
-```sh
-pip install numpy matplotlib scikit-learn opencv-python torch torchvision
-```
-
-## Running the Program
-
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/GuniDH/CNN-versus-SVM.git
-   cd CNN-versus-SVM
-  
-   ```
-2. **Run the Feature Extraction & Clustering**
-   ```sh
-   python q1.py
-   ```
-3. **Train & Evaluate the SVM Model**
-   ```sh
-   python q2.py
-   ```
-4. **Train & Evaluate the Deep Learning Model**
-   ```sh
-   python q3.py
-   ```
-
-
-## License
-
-This project is licensed under the **MIT License**.
 
 ---
 ### Author
